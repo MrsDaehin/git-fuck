@@ -16,7 +16,7 @@ if [ "\$1" == "it" ]
 then
   git add .
 fi
-git commit -a -m "\$(curl -s http://whatthecommit.com/index.txt)"
+git commit -a -m "\$(curl -s https://whatthecommit.com/index.txt)"
 if [ "\$1" == "up" -o "\$2" == "up" ]
 then
   git push
