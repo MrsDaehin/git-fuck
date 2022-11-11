@@ -1,6 +1,6 @@
 #!/bin/sh
 cd "$(git --exec-path)"
-cat << EOT >> git-fuck
+cat << EOT > git-fuck
 #!/bin/bash
 if [ "\$1" == "off" ]
 then
